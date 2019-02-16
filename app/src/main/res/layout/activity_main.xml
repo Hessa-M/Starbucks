@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context="packagecom.starbucks.MainActivity">
+
+    <ImageView
+        android:id="@+id/starbucks_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:scaleType="center"
+        android:src="@drawable/starbucks_logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Starbucks"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:textSize="60sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:autoLink="web"
+        android:fontFamily="monospace"
+        android:text="Website: www.starbucks.com"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:fontFamily="monospace"
+        android:layout_margin="15dp"
+        android:text="Hours: 8:30AM–11:30PM"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:fontFamily="monospace"
+        android:layout_margin="15dp"
+        android:text="Phone: 011 510 1479"/>
+
+</LinearLayout>
